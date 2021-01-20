@@ -1,0 +1,67 @@
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Landscape Test</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana;
+        }
+        
+        #canvas {
+            display: none;
+        }
+        
+        #assets {
+            display: none;
+        }
+        
+        #teste {
+            position: absolute;
+            right: 3%;
+            margin-top: 3%;
+            color: white;
+            font-weight: bold;
+        }
+        
+        #info {
+            margin-top: 3%;
+            margin-left: 3%;
+            position: absolute;
+            color: white;
+        }
+        
+        #buttonEnter {
+            position: absolute;
+            bottom: 20px;
+            margin-left: 3%;
+            background-color: #a0522d;
+            color: white;
+        }
+    </style>
+    <style type="text/css"></style>
+</head>
+
+<body>
+    <div>
+
+    </div>
+    <div id="assets"><img id="landscape-image" src="assets/Heightmap.png" /></div>
+    <div id="teste">
+    </div>
+    <div id="info">
+
+    </div>
+    <button type="button" class="btn" id="buttonEnter">ATERRAR EM MARTE</button>
+
+    <canvas id="canvas"></canvas>
+    <script src="js/three.min.js"></script>
+    <!-- added so user can rotate the scene with the mouse -->
+    <script src="app.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
